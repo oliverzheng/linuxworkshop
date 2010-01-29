@@ -1,0 +1,48 @@
+{
+  "pageSetup": {
+    "width": "12cm",
+    "height": "9cm",
+    "margin-top": "0.5cm",
+    "margin-bottom": "1mm",
+    "margin-left": "1cm",
+    "margin-right": "1cm",
+    "margin-gutter": "0cm",
+    "spacing-header": "0",
+    "spacing-footer": "0",
+    "firstTemplate": "oneColumn"
+  },
+  "pageTemplates": {
+    "coverPage": {
+      "background": "background.ps", 
+      "frames": [
+        [
+          "0cm", 
+          "0cm", 
+          "100%", 
+          "100%"
+        ]
+      ], 
+      "showHeader": false,
+      "showFooter": false 
+    }, 
+    "oneColumn": {
+      "background": "background.ps", 
+      "frames": [
+        [
+          "0cm", 
+          "0cm", 
+          "100%", 
+          "100%"
+        ]
+      ], 
+      "showHeader" : false,
+      "showFooter" : false
+    }
+  },
+  "styles" : [
+    ["bullet_list" , {
+      "parent": "bodytext",
+      "spaceBefore": 0
+    }]
+  ]
+}
